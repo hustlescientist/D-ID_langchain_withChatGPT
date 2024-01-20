@@ -2,7 +2,7 @@
 // Import the DID_API configuration
 import DID_API from './api.json' assert { type: 'json' };
 
-if (DID_API.key === '🤫') {
+if (DID_API.key === 'ZWxpYXNAdGVjaHN0YXJ0LmNv:BJRhTQX2zNVTFcqrLu75I') {
   alert('Please put your API key inside ./api.json and restart.');
 }
 

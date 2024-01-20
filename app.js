@@ -20,7 +20,7 @@ const app = express();
 app.use(express.json());
 app.use('/', express.static(__dirname));
 
-const apiKey = 'your-openai-api-key-here'; // Replace with your actual OpenAI API key
+const apiKey = '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'; // Replace with your actual OpenAI API key
 
 // Initialize LangChain components
 const text = fs.readFileSync('./aws_svs.txt', 'utf8');
